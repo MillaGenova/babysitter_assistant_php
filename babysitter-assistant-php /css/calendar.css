@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #795fbc #94bbe9;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 30px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #94bbe9;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #795fbc;
+  border-radius: 10px;
+  border: 9px groove #ffffff;
+}
+
+#calendar {
+  max-height: 90%;
+  margin: 0 auto;
+}
