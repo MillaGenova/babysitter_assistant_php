@@ -1,0 +1,5 @@
+babysitter_assisstant_presentation.docx
+# Dependency directories
+node_modules/
+dist/
+.vscode/
